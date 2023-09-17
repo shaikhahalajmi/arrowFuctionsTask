@@ -44,3 +44,18 @@ console.log(square(2));
  }
 
  console.log(arraySquared([2,3,4]));
+
+ //or 
+
+ const aSquared =(a) =>{
+    let b =[];
+    for (let i = 0; i < a.length; i++) {
+            b.push( a[i]* a[i]);
+        
+    }
+    return b;
+ }
+
+ console.log(aSquared([2,3,4]));
+
+
